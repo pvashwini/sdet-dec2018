@@ -1,0 +1,79 @@
+    1  pwd
+    2  cd Desktop/
+    3  ls
+    4  cd Gitworks/
+    5  ls
+    6  pwd
+    7  git init myrepo
+    8  ls
+    9  ls -la
+   10  pwd
+   11  cd myrepo/
+   12  ls
+   13  ls -la
+   14  git config user.name pvashwini
+   15  pwd
+   16  pwd
+   17  git config --global user.name pvashwini
+   18  git config --global user.email ashiwni.pvb@gmail.com
+   19  -- global edit
+   20  ls
+   21  ls -la
+   22  vi .git/
+   23  git config --global edit
+   24  cd .git/
+   25  ls
+   26  vi config 
+   27  cd .. 
+   28  git config --global user.email ashiwni.pvb@gmail.com
+   29  git config --global --edit
+   30  history
+   31  vi sample
+   32  git status
+   33  git status
+   34  vi sample
+   35  ls
+   36  git status
+   37  git add. - m initialcommit
+   38  git status
+   39  git commit -m "initial version"
+   40  git add . -m "initial commit"
+   41  git stuatus
+   42  git status
+   43  git add . 
+   44  git commit -m "initial commit"
+   45  ls
+   46  vi sample 
+   47  git add . 
+   48  git commit -m "second line commit"
+   49  git log
+   50  vi sample1.java
+   51  git status
+   52  git add . 
+   53  git status
+   54  git commit -m "new file added"
+   55  git log
+   56  git log --oneline --decorate
+   57  history
+   58  history >> gitcommands.txt
+   59  ls
+   60  history
+   61  ls
+   62  vi gitcommands.txt 
+   63  cd ..
+   64  git clone https://github.com/pvashwini/sdet-dec2018.git
+   65  ls
+   66  ls -l
+   67  cd sdet-dec2018/
+   68  history >> gitcommands.txt
+   69  pwd
+   70  ls
+   71* 
+   72  git commit -m "java files added"
+   73  git status
+   74  git push origin master 
+   75  git status
+   76  git add .
+   77  git commit -m "java files deleted"
+   78  git push origin master 
+   79  history >> usefulcommands
